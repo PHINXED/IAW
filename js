@@ -92,3 +92,64 @@ while (contador <= 12) {
 
   sumar(sumar(3, 5), sumar(4, 5));
   sumar(res1, res2);
+  
+  - - - 
+  potencia 
+
+let resultado = 1
+for (let potencia = 0; potencia < 10; potencia = potencia + 1){
+resultado = resultado * 2;
+}
+alert(resultado);
+------------
+
+
+const cuadrado = (x) => x * x;
+
+alert(cuadrado(5));
+
+-----------------------------------------
++sacar posiciones de una array
+
+let listadenumeros = [2, 4, 5, 6, 7, 8];
+
+alert(listadenumeros[2]);
+
++otro ejemplo
+
+let listadenumeros = [2, 4, 5, 6, 7, 8];
+
+alert(listadenumeros[2] + "," + listadenumeros[3]);
+
+-------------------------------------------------
+un array 1,2,3 y le añadimos 4 y 5 con push
+
+let listadenumeros = [1, 2, 3];
+
+listadenumeros.push(4, 5);
+
+alert(listadenumeros)
+
+otra manera-->
+
+let listadenumeros = [1, 2, 3];
+
+listadenumeros.push(4);
+
+listadenumeros.push(5);
+
+console.log(listadenumeros)
+
+---------------------------------------
+
+esto te dice posicion de la h
+let cadena = "hola";
+
+alert(cadena.indexOf("h"));
+
+
+-   -   -   -   -   -   -   -   -   -   -   -   -   
+let cadena = "hola";
+console.log(cadena.lenght);
+
+--------------------------------------
